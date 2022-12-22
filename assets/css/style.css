@@ -1,3 +1,12 @@
+@font-face {
+    font-family:"roboto" ;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+.fontRoboto{
+    font-family: "roboto";
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +14,7 @@
 }
 
 
-main article{
+.introMainArticle{
     display: flex;
     padding: 3vh 5vw;
     width: 50vw;
@@ -48,8 +57,41 @@ main article{
     margin-right: auto;
 }
 
-img{
+.imageSection img{
     margin-top: 20vh;
     justify-content: center;
     box-shadow: 10px 10px #4338ca;
     }
+
+
+.aboutMe{
+    display: flex;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+}
+
+.aboutMe h3{
+    margin-right: 10vw;
+    font-size: 2em;
+    
+}
+
+.aboutMe span{
+    margin-left: 2.3vw;
+}
+
+.aboutMeIcons{
+    display: flex;
+    width: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7vw;
+}
+
+.aboutMeIcons img{
+    margin-left: 2vw;
+    
+    
+}
